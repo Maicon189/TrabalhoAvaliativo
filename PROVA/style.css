@@ -1,0 +1,138 @@
+:root {
+
+    --verde: #006400;
+    --verde-claro: #4c8f4c;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+
+body {
+
+    font-family: "Times New Roman", serif;
+    background-color: var(--branco);
+    color: var(--preto);
+
+}
+
+.container {
+
+    width: 520px;
+    margin: 0 auto;
+
+}
+
+.dias {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.dia {
+
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--preto);
+    border-radius: 50%;
+    color: var(--preto);
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ativo {
+
+    background-color: var(--verde);
+    border-color: var(--verde);
+    color: var(--branco);
+
+}
+
+.horario {
+
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.hora {
+
+    width: 60px;
+    margin: 0;
+
+}
+
+.card {
+
+    width: 400px;
+    border: 1px solid var(--verde);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.card-topo {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.local {
+
+    border: 1px solid var(--verde-claro);
+    border-radius: 5px;
+    padding: 4px 8px;
+
+}
+
+.titulo {
+
+    margin: 0 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--verde);
+
+}
+
+/* palestrantes */
+
+.palestrantes {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.palestrante {
+
+    display: flex;
+    gap: 5px;
+
+}
+
+.palestrante img {
+
+    height: 40px;
+    clip-path: circle();
+
+}
+
+.palestrante p {
+
+    margin: 0;
+
+}
+
+.nome {
+
+    font-weight: bold;
+
+}
